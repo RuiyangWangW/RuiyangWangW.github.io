@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruiyang Wang - Robotics PhD Student</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Ruiyang Wang</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#cv" class="nav-link">CV</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Ruiyang Wang</span>
+                    </h1>
+                    <h2 class="hero-subtitle">PhD Student in Electrical and Computer Engineering</h2>
+                    <p class="hero-description">
+                        PhD student at Duke University currently seeking summer internship opportunities 
+                        to apply my research in real-world applications.
+                    </p>
+                    
+                    <div class="hero-research-interests">
+                        <h4>Research Interests:</h4>
+                        <ul>
+                            <li>Multi-Robot Systems (MRS)</li>
+                            <li>Learning-based Planning and Control</li>
+                            <li>Neural-Symbolic/LLM Integration for Robotic Autonomy</li>
+                        </ul>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#research" class="btn btn-secondary">View Research</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/ruiyang-wang-524124172/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/RuiyangWangW" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=DU_sCn4AAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="mailto:ruiyang.wang@duke.edu" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/ruiyang.JPG" alt="Ruiyang Wang" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Robotics Researcher & PhD Student</h3>
+                    <p>
+                        I am a PhD student in Electrical and Computer Engineering at Duke University, working under 
+                        Prof. Miroslav Pajic in the Cyber-Physical Systems Lab. My research focuses on developing 
+                        intelligent multi-robot systems that can coordinate effectively in complex environments.
+                    </p>
+                    <p>
+                        With a strong foundation in robotics, machine learning, and control systems gained through 
+                        my Master's at the University of Michigan and undergraduate studies in Mechanical Engineering, 
+                        I combine theoretical insights with practical implementations to solve challenging problems 
+                        in autonomous robotics.
+                    </p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul class="research-interests">
+                        <li>Multi-Robot Systems (MRS)</li>
+                        <li>Learning-based Planning and Control</li>
+                        <li>Neural-Symbolic/LLM Integration</li>
+                        <li>Robotic Autonomy</li>
+                        <li>Safety Critical Control</li>
+                        <li>Coordinated Motion Planning</li>
+                    </ul>
+
+                    <h4>Technical Skills</h4>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h5>Programming</h5>
+                            <span class="skills">Python, C++, Julia, MATLAB</span>
+                        </div>
+                        <div class="skill-category">
+                            <h5>ML/AI Frameworks</h5>
+                            <span class="skills">PyTorch, TensorFlow, scikit-learn</span>
+                        </div>
+                        <div class="skill-category">
+                            <h5>Robotics & Simulation</h5>
+                            <span class="skills">ROS2, PyBullet, OpenAI Gym, LCM</span>
+                        </div>
+                        <div class="skill-category">
+                            <h5>Tools</h5>
+                            <span class="skills">Git, CMake, Linux/Unix</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1st</div>
+                        <div class="stat-label">Year PhD</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">Duke + UMich</div>
+                        <div class="stat-label">Institutions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research & Publications</h2>
+            <div class="research-grid">
+                <div class="research-item">
+                    <div class="research-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>LLM-MCoX: Large Language Model Multi-robot Coordinated Exploration and Search</h3>
+                        <p class="research-venue">ICRA 2026 (Submitted)</p>
+                        <p class="research-description">
+                            Developed LLM-MCoX, a framework that fuses LiDAR-based frontier clustering and doorway detection 
+                            with multimodal LLM reasoning to coordinate robot teams. Achieved 22.7% faster exploration and 
+                            50% more efficient search than baseline methods, validated with Unitree Go2 quadruped and X500 drone.
+                        </p>
+                        <div class="research-links">
+                            <a href="#" class="research-link">Paper</a>
+                            <a href="assets/ICRA_2026_LLM-MCoX_video.mp4" class="research-link">Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-image">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Neural Symbolic Deadlock Resolution in Multi-robot Systems</h3>
+                        <p class="research-venue">L4DC 2025 (Accepted)</p>
+                        <p class="research-description">
+                            Proposed NSDR combining Active-Passive paradigm with Neural Logic Machines (NLMs) to resolve 
+                            deadlocks in multi-robot systems. Trained on simple 2-5 robot scenarios and generalized to 
+                            8-10+ robots in complex environments, outperforming adaptive repulsive force methods.
+                        </p>
+                        <div class="research-links">
+                            <a href="https://proceedings.mlr.press/v283/wang25f.html" class="research-link">Paper</a>
+                            <a href="assets/Deadlock Resolution of Multi-robot Systems using Neural Logic Machines.pptx" class="research-link">Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-item">
+                    <div class="research-image">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="research-content">
+                        <h3>Compatible Constraint Selection in Receding-Horizon Control</h3>
+                        <p class="research-venue">ACC 2024 (Accepted)</p>
+                        <p class="research-description">
+                            Developed heuristics for maximal feasible subset selection in receding-horizon control using 
+                            Lagrange multipliers to identify incompatible soft constraints. Achieved near-optimal performance 
+                            at orders-of-magnitude lower computation cost than exhaustive methods.
+                        </p>
+                        <div class="research-links">
+                            <a href="https://ieeexplore.ieee.org/abstract/document/10644243" class="research-link">Paper</a>
+                            <a href="https://github.com/RuiyangWangW/Compatible_Constraint_Selection" class="research-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Autonomous Driving Robot (BotLab)</h3>
+                        <p>
+                            Built a fully autonomous driving robot capable of exploring and navigating 
+                            in unforeseen mazes. Implemented triple-layered PID controller for wheel 
+                            speed control, particle filter for localization, and A* path planning algorithm.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">PID Control</span>
+                            <span class="tech-tag">Particle Filter</span>
+                            <span class="tech-tag">A* Planning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/ROB550_Botlab_Report.pdf" class="project-link">
+                                <i class="fas fa-file-pdf"></i> Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Latent Space Controller for PANDA Arm</h3>
+                        <p>
+                            Designed a latent space controller for 7-DOF PANDA robotic arm using 
+                            Variational AutoEncoder (VAE) and Sparse Identification of Nonlinear 
+                            Dynamics (SINDy). Achieved 20% fewer actions than baseline in planar pushing tasks.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">VAE</span>
+                            <span class="tech-tag">SINDy</span>
+                            <span class="tech-tag">PyBullet</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/SINDy_Comparison.pdf" class="project-link">
+                                <i class="fas fa-file-pdf"></i> Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>PoseCNN for 6D Object Pose Estimation</h3>
+                        <p>
+                            Reimplemented PoseCNN network in PyTorch for 6D object pose estimation. 
+                            Trained on PROPS dataset and improved 5°5cm accuracy from 53.62% to 64.14% 
+                            by adding feed-forward layers to the baseline network.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Pose Estimation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/DeepRobProjectReport.pdf" class="project-link">
+                                <i class="fas fa-file-pdf"></i> Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="cv-content">
+                <div class="cv-summary">
+                    <p>
+                        Download my complete CV to learn more about my academic background, 
+                        research experience, publications, and achievements.
+                    </p>
+                    <a href="assets/Ruiyang_Wang_Resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+
+                <div class="cv-sections">
+                    <div class="cv-section">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="cv-item">
+                            <h4>PhD in Electrical and Computer Engineering</h4>
+                            <p class="cv-institution">Duke University</p>
+                            <p class="cv-date">August 2024 - April 2028 (Expected)</p>
+                            <p class="cv-description">
+                                Advisor: Prof. Miroslav Pajic<br>
+                                Focus: Multi-Robot Systems, Learning-based Control, Neural-Symbolic Integration
+                            </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Master of Science in Robotics</h4>
+                            <p class="cv-institution">University of Michigan, Ann Arbor</p>
+                            <p class="cv-date">August 2022 - December 2023</p>
+                            <p class="cv-description">
+                                Advanced coursework in robot learning, perception, and control systems
+                            </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Bachelor of Science in Mechanical Engineering</h4>
+                            <p class="cv-institution">University of Michigan, Ann Arbor</p>
+                            <p class="cv-date">August 2018 - April 2022</p>
+                            <p class="cv-description">
+                                Strong foundation in engineering principles and mathematics
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3><i class="fas fa-briefcase"></i> Research Experience</h3>
+                        <div class="cv-item">
+                            <h4>Graduate Research Assistant</h4>
+                            <p class="cv-institution">Cyber-Physical Systems Lab, Duke University</p>
+                            <p class="cv-date">August 2024 - Present</p>
+                            <p class="cv-description">
+                                Developing LLM-based multi-robot coordination and neural-symbolic 
+                                deadlock resolution systems under Prof. Miroslav Pajic.
+                            </p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Graduate Research Assistant</h4>
+                            <p class="cv-institution">Distributed Aerospace and Control Lab, University of Michigan</p>
+                            <p class="cv-date">December 2022 - December 2023</p>
+                            <p class="cv-description">
+                                Worked on constraint selection in receding-horizon control systems 
+                                under Prof. Dimitra Panagou.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3><i class="fas fa-trophy"></i> Selected Publications</h3>
+                        <div class="cv-item">
+                            <h4>LLM-MCoX: Large Language Model Multi-robot Coordinated Exploration</h4>
+                            <p class="cv-institution">Submitted to ICRA 2026</p>
+                            <p class="cv-date">2025</p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Neural Symbolic Deadlock Resolution in Multi-robot Systems</h4>
+                            <p class="cv-institution">L4DC 2025</p>
+                            <p class="cv-date">2025</p>
+                        </div>
+                        <div class="cv-item">
+                            <h4>Compatible Constraint Selection in Receding-Horizon Control</h4>
+                            <p class="cv-institution">ACC 2024</p>
+                            <p class="cv-date">2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm actively seeking summer internship opportunities in robotics, AI, 
+                        and autonomous systems. I'd love to hear from you!
+                    </p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:ruiyang.wang@duke.edu">ruiyang.wang@duke.edu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Durham, NC</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(984) 259-5539</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://linkedin.com/in/ruiyang-wang" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ruiyangwang" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=DU_sCn4AAAAJ&hl=en" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="mailto:ruiyang.wang@duke.edu">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ruiyang Wang. All rights reserved.</p>
+                <p>Built with passion for robotics and innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
