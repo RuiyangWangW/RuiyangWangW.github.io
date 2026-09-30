@@ -245,10 +245,21 @@
                         <p class="research-authors">Hardik Parwana*, <strong>Ruiyang Wang*</strong>, Dimitra Panagou <span class="equal-contrib">(*equal contribution)</span></p>
                         <p class="research-venue">ACC 2024</p>
                         <p class="research-description">
-                            Developed heuristics for maximal feasible subset selection in receding-horizon control using 
-                            Lagrange multipliers to identify incompatible soft constraints. Achieved near-optimal performance 
-                            at orders-of-magnitude lower computation cost than exhaustive methods.
+                            When soft constraints, such as timed waypoints, conflict with hard constraints like obstacle avoidance,
+                            a receding-horizon controller becomes infeasible. Relaxing them with slack variables can compromise the hard
+                            constraints over time, so we drop incompatible soft constraints instead, choosing them with polynomial-time
+                            heuristics based on Lagrange multipliers.
                         </p>
+                        <ul class="research-highlights">
+                            <li>Matches exhaustive search (12 of 14 waypoints) in <strong>6.95 s vs. 3.61 h</strong></li>
+                            <li>Outperforms the slack-based Chinneck heuristic at lower computation time</li>
+                            <li>Keeps safety and on-time goal arrival where slack relaxation fails</li>
+                        </ul>
+                        <div class="research-tags">
+                            <span class="tech-tag">Receding-Horizon Control</span>
+                            <span class="tech-tag">Control Barrier Functions</span>
+                            <span class="tech-tag">Safety-Critical Control</span>
+                        </div>
                         <div class="research-links">
                             <a href="https://ieeexplore.ieee.org/abstract/document/10644243" class="research-link" target="_blank" rel="noopener">Paper</a>
                             <a href="https://github.com/RuiyangWangW/Compatible_Constraint_Selection" class="research-link" target="_blank" rel="noopener">Code</a>
