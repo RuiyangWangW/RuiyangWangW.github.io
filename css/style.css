@@ -205,10 +205,41 @@ p, li {
 }
 
 /* Sections below the intro */
+.news,
 .research,
 .experience {
     padding: 3rem 0;
     border-top: 1px solid var(--border-color);
+}
+
+/* News Section: bulleted list with a [Mon YYYY] prefix, as on most researcher homepages */
+.news-list {
+    padding-left: 1.25rem;
+}
+
+.news-list li {
+    padding: 0.2rem 0;
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+.news-list li::marker {
+    color: var(--text-light);
+}
+
+.news-date {
+    color: var(--text-primary);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.news-list a {
+    text-decoration: none;
+}
+
+.news-list a:hover {
+    text-decoration: underline;
 }
 
 /* Research entries: image on the left (about 28%), text on the right */
@@ -218,6 +249,10 @@ p, li {
     gap: 2rem;
     padding: 2rem 0;
     border-top: 1px solid var(--border-color);
+}
+
+.research-item {
+    scroll-margin-top: calc(var(--nav-height) + 1rem);
 }
 
 .research-item:first-child {

@@ -31,6 +31,7 @@
         <div class="nav-container">
             <a href="#home" class="nav-logo">Ruiyang Wang</a>
             <div class="nav-menu">
+                <a href="#news" class="nav-link">News</a>
                 <a href="#research" class="nav-link">Research</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="assets/Ruiyang_Wang_Resume.pdf" class="nav-link" target="_blank" rel="noopener">CV</a>
@@ -81,6 +82,22 @@
         </div>
     </section>
 
+    <!-- News Section -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2 class="section-title">News</h2>
+            <ul class="news-list">
+                <li><span class="news-date">[Oct 2026]</span> Our paper <a href="#comres-vlm"><strong>COMRES-VLM</strong></a> was submitted to IEEE&nbsp;RA-L.</li>
+                <li><span class="news-date">[Sep 2026]</span> <a href="#gavel"><strong>GAVEL</strong></a> was featured by <a href="https://x.com/dair_ai/status/2101494059898655108" target="_blank" rel="noopener">DAIR.AI</a>!</li>
+                <li><span class="news-date">[Sep 2026]</span> Our paper <a href="#nest-bayes"><strong>NeST-Bayes</strong></a> was submitted to IEEE&nbsp;RA-L.</li>
+                <li><span class="news-date">[Sep 2026]</span> Our paper <a href="#gavel"><strong>GAVEL</strong></a> is on <a href="https://arxiv.org/abs/2609.19315" target="_blank" rel="noopener">arXiv</a> and was submitted to ICRA&nbsp;2027.</li>
+                <li><span class="news-date">[Apr 2026]</span> Our paper <a href="#sagr"><strong>SAGR</strong></a> is on <a href="https://arxiv.org/abs/2604.16263" target="_blank" rel="noopener">arXiv</a>.</li>
+                <li><span class="news-date">[Sep 2025]</span> Our paper <a href="#comres-vlm"><strong>COMRES-VLM</strong></a> is on <a href="https://arxiv.org/abs/2509.26324" target="_blank" rel="noopener">arXiv</a>.</li>
+                <li><span class="news-date">[Jun 2025]</span> I presented <a href="#nsdr"><strong>NSDR</strong></a> at <a href="https://proceedings.mlr.press/v283/wang25f.html" target="_blank" rel="noopener">L4DC&nbsp;2025</a>.</li>
+            </ul>
+        </div>
+    </section>
+
     <!-- Research Section -->
     <!--
         Paper images live in assets/research/. An entry whose image is still missing can use a
@@ -92,7 +109,7 @@
         <div class="container">
             <h2 class="section-title">Research &amp; Publications</h2>
             <div class="research-list">
-                <article class="research-item">
+                <article class="research-item" id="gavel">
                     <div class="research-media">
                         <a href="assets/research/gavel.png" target="_blank" rel="noopener">
                             <img src="assets/research/gavel.png" alt="GAVEL example: a robot in an apartment with seen and uncertain object locations, reasoning about which task to do first" loading="lazy">
@@ -127,7 +144,7 @@
                     </div>
                 </article>
 
-                <article class="research-item">
+                <article class="research-item" id="nest-bayes">
                     <div class="research-media">
                         <a href="assets/research/nest-bayes.png" target="_blank" rel="noopener">
                             <img src="assets/research/nest-bayes.png" alt="Three robots report conflicting observations of a cardboard box: which robots should be trusted, and does the box exist?" loading="lazy">
@@ -161,7 +178,7 @@
                     </div>
                 </article>
 
-                <article class="research-item">
+                <article class="research-item" id="comres-vlm">
                     <div class="research-media">
                         <a href="assets/research/comres-vlm.jpg" target="_blank" rel="noopener">
                             <img src="assets/research/comres-vlm.jpg" alt="A Unitree Go2 quadruped and an X500 drone given a language hint to search for a target at the far end of the main corridor" loading="lazy">
@@ -193,7 +210,7 @@
                     </div>
                 </article>
 
-                <article class="research-item">
+                <article class="research-item" id="sagr">
                     <div class="research-media">
                         <a href="assets/research/sagr.png" target="_blank" rel="noopener">
                             <img src="assets/research/sagr.png" alt="SAGR framework: a semantic reasoning layer where an LLM assigns robots to rooms from a semantic area graph, a frontier selection layer using recursive Hungarian assignment and TSP, and a local execution layer on each robot" loading="lazy">
@@ -225,7 +242,7 @@
                     </div>
                 </article>
 
-                <article class="research-item media-wide">
+                <article class="research-item media-wide" id="nsdr">
                     <div class="research-media">
                         <a href="assets/research/nsdr.png" target="_blank" rel="noopener">
                             <img src="assets/research/nsdr.png" alt="Neural Logic Machine pipeline: unary and binary predicate values pass through expand/reduce MLP layers to produce a score for each robot" loading="lazy">
@@ -259,7 +276,7 @@
                     </div>
                 </article>
 
-                <article class="research-item no-media">
+                <article class="research-item no-media" id="acc2024">
                     <div class="research-content">
                         <h3>Algorithms for Finding Compatible Constraints in Receding-Horizon Control of Dynamical Systems</h3>
                         <p class="research-authors">Hardik Parwana*, <strong>Ruiyang Wang*</strong>, Dimitra Panagou <span class="equal-contrib">(*equal contribution)</span></p>
