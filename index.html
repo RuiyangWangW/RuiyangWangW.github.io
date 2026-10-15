@@ -160,9 +160,9 @@
                             it into evidence, and Beta-distribution updates accumulate that evidence over time.
                         </p>
                         <ul class="research-highlights">
-                            <li><strong>96.4% / 97.0%</strong> robot / object precision against aggressive, optimized attackers</li>
-                            <li><strong>97.3% / 97.7%</strong> precision in an occlusion-rich Webots warehouse with Spot robots, without retraining</li>
-                            <li>Highest robot precision even when 40–50% of the team is adversarial (<strong>77.7%</strong> vs. at most 70.2%)</li>
+                            <li><strong>98.8% / 98.3%</strong> robot / object precision against aggressive, optimized attackers</li>
+                            <li><strong>92.5% / 97.3%</strong> robot / object precision in an occlusion-rich Webots warehouse with simulated Spot robots, without retraining</li>
+                            <li>Highest robot precision even when 40–50% of the team is adversarial (<strong>89.1%</strong> vs. at most 73.8%)</li>
                         </ul>
                         <div class="research-tags">
                             <span class="tech-tag">Multi-Robot Trust</span>
@@ -170,7 +170,7 @@
                             <span class="tech-tag">Graph Neural Networks</span>
                         </div>
                         <div class="research-links">
-                            <span class="research-link is-placeholder">Paper link TBA</span>
+                            <a data-goatcounter-click="paper-nest-bayes" href="https://arxiv.org/abs/2610.14530" class="research-link" target="_blank" rel="noopener">Paper</a>
                             <a data-goatcounter-click="video-nest-bayes" href="assets/research/nest-bayes-video.mp4" class="research-link" target="_blank" rel="noopener"><i class="fas fa-play-circle" aria-hidden="true"></i> Video</a>
                         </div>
                     </div>
@@ -191,12 +191,11 @@
                             with the unexplored space cut into sensor-sized pieces behind each opening, and assigns every robot a
                             piece, using a natural-language hint about the target when one is given. Between plans, each robot
                             picks frontiers on its own while favoring its piece, so a late or missing plan never stalls the team.
-                            Evaluated in real-world experiments with two Unitree Go2 robots.
                         </p>
                         <ul class="research-highlights">
-                            <li>Hint-guided search <strong>11% faster</strong> than the strongest classical baseline (107 vs. 121 steps, p = 0.003)</li>
-                            <li><strong>20–33%</strong> faster than Hungarian frontier assignment in exploration and hint-guided search</li>
-                            <li>Reading the language hint finds the target <strong>18% sooner</strong> than searching without it</li>
+                            <li>Cuts search time by <strong>25%</strong> versus Hungarian assignment with priors, across 40 maps including planning delays</li>
+                            <li>Cuts search time by <strong>33%</strong> versus Co-NavGPT, an LLM-based multi-robot navigation method</li>
+                            <li>Evaluated in real-world experiments with <strong>two Unitree Go2 robots</strong></li>
                         </ul>
                         <div class="research-tags">
                             <span class="tech-tag">VLM Coordination</span>
